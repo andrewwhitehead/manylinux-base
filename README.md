@@ -1,7 +1,6 @@
-# rust-manylinux2014-container
+# manylinux-base
 
-## Inputs
+A Docker image for building [Manylinux2014](https://www.python.org/dev/peps/pep-0599/)-compatible binary
+artifacts for use within Github Actions.
 
-`cmd` - The command to be executed inside the container. Defaults to `cargo build --release -v`
-
-Based on [pypa/manylinux2014](https://github.com/pypa/manylinux/tree/manylinux2014/)
+Based on [pypa/manylinux](https://github.com/pypa/manylinux/)
